@@ -2,8 +2,10 @@
 /**
  * Plugin Name: BE Social Widget
  * Description: This allows you to link to your social profiles like Twitter and Facebook
+ * Plugin URI:  https://github.com/billerickson/BE-Social-Widget/
  * Version:     1.0.0
  * Author:      Bill Erickson
+ * Author UR:   http://www.billerickson.net
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License version 2, as published by the
