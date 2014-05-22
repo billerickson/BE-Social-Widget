@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'be-social';
+	src:url('fonts/icomoon.eot?rx3tr5');
+	src:url('fonts/icomoon.eot?#iefixrx3tr5') format('embedded-opentype'),
+		url('fonts/icomoon.woff?rx3tr5') format('woff'),
+		url('fonts/icomoon.ttf?rx3tr5') format('truetype'),
+		url('fonts/icomoon.svg?rx3tr5#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="be-social-"], [class*=" be-social-"] {
+	font-family: 'be-social';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.be-social-linkedin:before {
+	content: "\f08c";
+}
+.be-social-twitter:before {
+	content: "\f099";
+}
+.be-social-facebook:before {
+	content: "\f09a";
+}
+.be-social-rss:before {
+	content: "\f09e";
+}
+.be-social-gplus:before {
+	content: "\f0d5";
+}
+.be-social-youtube:before {
+	content: "\f167";
+}
