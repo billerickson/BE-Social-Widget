@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'be-social';
-	src:url('fonts/icomoon.eot?rx3tr5');
-	src:url('fonts/icomoon.eot?#iefixrx3tr5') format('embedded-opentype'),
-		url('fonts/icomoon.woff?rx3tr5') format('woff'),
-		url('fonts/icomoon.ttf?rx3tr5') format('truetype'),
-		url('fonts/icomoon.svg?rx3tr5#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?8ejk7n');
+	src:url('fonts/icomoon.eot?#iefix8ejk7n') format('embedded-opentype'),
+		url('fonts/icomoon.woff?8ejk7n') format('woff'),
+		url('fonts/icomoon.ttf?8ejk7n') format('truetype'),
+		url('fonts/icomoon.svg?8ejk7n#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -40,4 +40,7 @@
 }
 .be-social-youtube:before {
 	content: "\f167";
+}
+.be-social-pinterest:before {
+	content: "\e601";
 }

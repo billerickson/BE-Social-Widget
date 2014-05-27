@@ -55,23 +55,25 @@ class BE_Social_Widget extends WP_Widget {
 
 		// widget defaults
 		$this->defaults = array(
-			'title'    => '',
-			'twitter'  => '',
-			'facebook' => '',
-			'gplus'    => '',
-			'linkedin' => '',
-			'youtube'  => '',
-			'rss'      => '',
+			'title'     => '',
+			'twitter'   => '',
+			'facebook'  => '',
+			'gplus'     => '',
+			'linkedin'  => '',
+			'youtube'   => '',
+			'pinterest' => '',
+			'rss'       => '',
 		);
 		
 		// Socials
 		$this->socials = apply_filters( 'be_social_widget_order', array(
-			'twitter'  => 'Twitter URL',
-			'facebook' => 'Facebook URL',
-			'gplus'    => 'Google Plus URL',
-			'linkedin' => 'LinkedIn URL',
-			'youtube'  => 'Youtube URL',
-			'rss'      => 'RSS URL',
+			'twitter'   => 'Twitter URL',
+			'facebook'  => 'Facebook URL',
+			'gplus'     => 'Google Plus URL',
+			'linkedin'  => 'LinkedIn URL',
+			'youtube'   => 'Youtube URL',
+			'pinterest' => 'Pinterest URL',
+			'rss'       => 'RSS URL',
 		) );
 
 		// widget basics
